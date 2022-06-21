@@ -1,11 +1,21 @@
-
+import React from 'react';
+import Book from './Books/Book';
 import './App.css';
 
-function App() {
+const App= () => {
   return (
-    <>
-       <h1>React App</h1>
-    </>
+    <section className='bookstore'>
+      <div className='bookstore-title'>
+       <h1>My Book Store</h1>
+       <Book />
+       <Book />
+       <Book />
+       <Book />
+       <Book />
+       <Book />
+       <Book />
+       </div>
+    </section>
   );
 }
 
